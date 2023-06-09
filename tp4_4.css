@@ -1,0 +1,73 @@
+.TP4_4{
+    margin-top: 5rem;
+    display:flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap:4rem;
+    justify-content: center;
+}
+.contain{
+    width: 15rem;
+    height:15rem;
+    background-color: rgb(218, 213, 213);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:5px;
+    gap:0.3rem;
+}
+.contchild{
+    display:flex;
+    gap:2px;
+    flex-direction: column;
+    padding:1px;
+    background-color: orange;
+    flex-grow: 1;
+}
+.inchild{
+    background-color: rgb(108, 108, 250);
+    flex-grow:2;
+}
+.box1{
+    display:flex;
+    flex-grow:2;
+    flex-direction: column;
+    gap:5px;
+}
+.inbox11{
+    background-color: orange;
+    flex-grow: 1;
+}
+.inbox12{
+    display:flex;
+    flex-grow: 2;
+    gap:5px;
+}
+.inbox122{
+    display:flex;
+    flex-grow:1;
+    background-color: orange;
+}
+.inbox121{
+    display:flex;
+    flex-direction:column;
+    flex-grow:1;
+    gap:5px;
+}
+.inbox121child{
+    flex-grow:1;
+    background-color: orange;
+}
+.box2{
+    display:flex;
+    flex-grow:1;
+    background-color: orange;
+    gap:5px;
+    flex-direction: column;
+    padding:4px;
+}
+.inbox2{
+    display:flex;
+    flex-grow:1;
+    background-color: rgb(108, 108, 250);
+}

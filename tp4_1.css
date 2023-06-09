@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    padding:5px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display:flex;
+    font-weight: 600;
+    font-size: 2rem;
+}
+h{
+    display:flex;/*delete to restore visible*/
+    align-self: center;
+    font-size: 1.3rem;
+}
+.TP4_1{
+    display:flex;/*change visibility*/
+    width: 30rem;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin:auto;
+}
+.cont1,.cont2,.cont3,.cont4{
+    display:flex;
+    width: 200px;
+    height:200px;
+    background-color: rgb(181, 181, 181);
+}
+.childcont{
+    color:white;
+    text-align: center;
+    width: 2rem;
+    height:2rem;
+    margin:5px;
+    padding:1rem 1.5rem;
+    background-color: rgb(255, 153, 0);
+}
+.conts1,.conts2,.conts3,.conts4{
+    position:relative;
+    width: 200px;
+    height:200px;
+    background-color: rgb(181, 181, 181);
+}
